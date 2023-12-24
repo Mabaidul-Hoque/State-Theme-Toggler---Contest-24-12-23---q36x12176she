@@ -5,7 +5,7 @@ export default function App() {
     const [theme, setTheme] = useState('light');
 
     const handleChange = () =>{
-        setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light')) ;
+        setTheme((prevTheme) => (prevTheme === 'light' ? 'light' : 'dark')) ;
     };
 
     return (
